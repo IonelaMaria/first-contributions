@@ -1,0 +1,99 @@
+Primele Contribuții
+Este greu. Este întotdeauna greu prima dată când faci ceva. Mai ales când colaborați, a face greșeli nu este un lucru confortabil. Dar in open source este vorba de colaborare. Am vrut să simplificăm modul în care noii contribuabili cu surse deschise invata și contribuie pentru prima dată.
+Citirea articolelor și vizionarea tutorialelor poate deasemenea ajuta, Acest proiect își propune să ofere îndrumare și simplificarea modului în care începătorii își fac prima contribuție. Amintiți-vă, cu cat sunteti mai relaxat cu atât mai bine învățați. Dacă sunteți în căutarea primei contribuții, urmați pașii simpli de mai jos. Vă promit că va fi distractiv.
+Citiți  si in alte limbi: 
+Spanish, Dutch, Hindi, Russian, Japanese, Vietnamese, Polish, Korean, German, Simplified Chinese, Traditional Chinese, Greek, العربية.
+Daca nu aveti git instalat in calculator atunci instalati.
+Fork this repository (constituie operațiunea ce constă în crearea unui nou proiect pornind de la un altul deja existent)
+Faceti fork la proiect dand clic pe butonul fork din partea de sus a acestei pagini. Astfel se va crea o copie a acestui depozit în contul dvs.
+ 
+Clonati proiectul
+Acum, clonați acest repo . Faceți clic pe butonul de clonare și apoi clic pe pictograma copiere în clipboard
+Deschideți un terminal și executați următoarea comandă git:
+git clone "url you just copied"
+
+În cazul în care "URL-ul pe care tocmai l-ați copiat" (fără citate) este urlul către acest depozit. Consultați pașii anteriori pentru a obține adresa URL.
+De exemplu:
+git clone https://github.com/this-is-you/first-contributions.git
+Unde "this-is-you" este numele dvs. de utilizator GitHub. Aici copiați conținutul primului depozit de contribuții în GitHub pe computer.
+  
+Cum creati un branch
+Schimbați în directorul repozitoriu de pe computer dacă nu sunteți deja acolo.
+cd first-contributions
+Acum create un branch folosind comanda git checkout 
+git checkout -b <add-your-name>
+De exemplu:
+git checkout -b add-alonzo-church
+Faceti schimbarile necesare si commiteti aceste schimbari
+Acum deschideti Contributors.md file intr-un text editor si adaugati numele vostru, apoi salvati file-ul. Dacă mergeți la directorul de proiect și faceți  git status, veti vedea acolo schimbarile. Adaugati aceste schimbari folosind comanda git add ca mai jos:
+git add Contributors.md
+Acum commiteti aceste schimbari folosind comanda git commit.
+git commit -m "Add <your-name> to Contributors list"
+scimbati <your-name> cu numele dvs.
+Push changes to GitHub (Trimiteți schimbările pe repository-ul central:)
+Trimiteti schimbarile folosind git push
+git push origin <add-your-name>
+Inlocuiti <add-your-name> cu numele vostru pe care l-ați creat mai devreme
+
+Trimiteți modificările pentru verificare
+Dacă te duci la depozitul tău pe GitHub, o să vezi butonul Compare & pull request. Apasati acel buton.
+ 
+Acum trimiteti cererea.
+ 
+Acum administratorul va îmbina toate schimbările tale în ramura principală a acestui proiect. Vei primi un e-mail de notificare odată ce schimbările au fost verificate.
+Proiectul master nu va avea suferi modificări. Pentru a vă menține proiectul sincronizat cu cel master, urmați pașii de mai jos.
+Mențineti proiectul sincronizat cu cel master 
+Intai, schimbati pe  master branch.
+git checkout master
+Apoi, adaugati repo's url  ca upstream remote url.
+git remote add upstream https://github.com/Roshanjossey/first-contributions
+Acesta este un mod de a spune git că o altă versiune a acestui proiect există în urlul specificat și îl sunăm. Odată ce schimbările sunt îmbinate, aduceți noua versiune a repozitorului initial .git fetch upstream
+Aici vom aduce toate schimbările în fork-ul principa. Acum, trebuie să îmbinați noua revizie a depozitului principal în sucursala dvs. master.git rebase upstream/master
+Aici aplicați toate modificările pe care le-ați adus la proiectul principal. Dacă faceti fork acum la proiectul master, fork-uk  dvs. va avea, de asemenea, modificările
+git push origin master
+Observați că il impingeti la numele de origine.
+Tutoriale utilizand alte instrumente
+ 	 	 
+GitHub Desktop
+Visual Studio 2017
+GitKraken
+
+Ce se poate face deaici?
+De asemenea, v-ați putea alătura echipei noastre ușoare în cazul în care aveți nevoie de ajutor sau aveți întrebări. 
+
+
+ 	 	 	 	 	 	 	 
+exercism
+Fun Retros
+react
+habitat
+scikit-learn
+Leiningen
+numpy
+elasticsearch
+
+ 	 	 	 	 	 	 	 
+homebrew
+Rust
+vuejs
+Suave
+OpenRA
+PowerShell
+coala
+moment
+
+ 	 	 	 	 	 	 	 
+ava
+freeCodeCamp
+webpack
+hoodie
+pouchdb
+neovim
+babel
+brackets
+
+ 	 						
+Node.js
+Semantic-UI-React
+									
+
